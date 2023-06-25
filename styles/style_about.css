@@ -29,27 +29,44 @@
 .about .botom {
     /* width: 100%; */
     display: flex;
+    justify-content: space-evenly;
     margin-top: 50px;
 }
 
 .about .botom .know {
-    width: 50%;
+    width: 40%;
 }
 
 .about .botom .know h2 {
-    margin-left: 15px;
+    margin-left: 1px;
 }
 .about .botom .know p {
-    margin: 15px 20px;
+    margin: 15px 1px;
     text-align: justify;
 }
 
-.about .botom .skills span {
-    background-color: gray;
+.about .botom .know p a {
+    color: blue;
+    font-weight: bolder;
+}
+
+.about .botom .know p a:hover {
+    text-decoration: underline;
+}
+
+.about .botom .skills {
+    width: 40%;
+}
+
+.about .botom .skills .html {
+    background-color: var(--bgcolor1);
     padding: 10px 30px;
     border-radius: 5px;
     margin-top: 20px;
+    margin-right: 10px;
+    display: inline-block;
 }
+
 
 @media (max-width: 650px){
     .about .middle{
@@ -61,11 +78,16 @@
         display: block;
     }
 
-    .about .botom .know {
-        width: 100%;
+
+    .about .botom .know,
+    .about .botom .skills {
+
+        width: 92%;
+        margin: 1px auto;
     }
 
-    .about .botom .know h2 {
+    .about .botom .know h2,
+    .about .botom .skills h2 {
         font-size: 23px;
     }
 
