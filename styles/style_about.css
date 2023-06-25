@@ -1,0 +1,77 @@
+.about .about-top {
+    width: 100%;
+    height: 200px;
+}
+
+.about .name {
+    width: 100%;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+.about .line {
+    width: 40px;
+    height: 5px;
+    margin: 5px auto;
+    border-radius: 10px;
+    background-color: var(--barcolor2);
+}
+
+.about .middle {
+    width: 60%;
+    margin: 2px auto;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 22px;
+    line-height: 1.5;
+}
+
+.about .botom {
+    /* width: 100%; */
+    display: flex;
+    margin-top: 50px;
+}
+
+.about .botom .know {
+    width: 50%;
+}
+
+.about .botom .know h2 {
+    margin-left: 15px;
+}
+.about .botom .know p {
+    margin: 15px 20px;
+    text-align: justify;
+}
+
+.about .botom .skills span {
+    background-color: gray;
+    padding: 10px 30px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+@media (max-width: 650px){
+    .about .middle{
+        font-size: 18px;
+        width: 90%;
+    }
+
+    .about .botom {
+        display: block;
+    }
+
+    .about .botom .know {
+        width: 100%;
+    }
+
+    .about .botom .know h2 {
+        font-size: 23px;
+    }
+
+    .about .botom .know p {
+        font-size: 18px;
+    }
+
+  
+}

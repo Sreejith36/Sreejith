@@ -1,0 +1,63 @@
+.home .home-top {
+    width: 100%;
+    height: 175px;
+}
+
+.home .name {
+    width: 100%;
+    text-align: center;
+}
+
+.home .name h1 {
+    font-size: 3rem;
+}
+
+.home .middle {
+    width: 60%;
+    margin: 2px auto;
+    text-align: center;
+    margin-top: 40px;
+    line-height: 1.5;
+}
+
+.home .middle p {
+    font-size: 22px;
+}
+
+.home .botom {
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.home .botom button {
+    padding: 18px 50px;
+    font-size: 19px;
+    letter-spacing: 3px;
+    border: none;
+    border-radius: 8px;
+    background-color: var(--barcolor2);
+    cursor: pointer;
+
+}
+
+.home .botom button:hover {
+    transform: scale(1.05);
+    transition: all 0.4s ;
+    font-weight: 800;
+}
+@media (max-width: 650px){
+    .home .name h1 {
+        font-size: 2rem;
+    }
+
+    .home .middle {
+        width: 90%;
+    }
+
+    .home .middle p {
+        font-size: 18px;
+    }
+    
+
+}
