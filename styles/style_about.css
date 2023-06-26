@@ -1,6 +1,6 @@
 .about .about-top {
     width: 100%;
-    height: 200px;
+    height: 100px;
 }
 
 .about .name {
@@ -43,6 +43,7 @@
 .about .botom .know p {
     margin: 15px 1px;
     text-align: justify;
+    line-height: 1.5;
 }
 
 .about .botom .know p a {
@@ -65,10 +66,14 @@
     margin-top: 20px;
     margin-right: 10px;
     display: inline-block;
+    font-size: 16px;
 }
 
 
 @media (max-width: 650px){
+    .about .name {
+        font-size: 18px;
+    }
     .about .middle{
         font-size: 18px;
         width: 90%;
