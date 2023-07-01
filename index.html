@@ -6,10 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>S R E E J I T H </title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link rel="stylesheet" href="styles/styles.css">
     <link rel="stylesheet" href="styles/style_home.css">
     <link rel="stylesheet" href="styles/style_about.css">
     <link rel="stylesheet" href="styles/style_projects.css">
+    <link rel="stylesheet" href="styles/style_contact.css">
+    <link rel="stylesheet" href="styles/style_footer.css">
     <link rel="stylesheet" href="styles/stylecolor.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
@@ -19,7 +22,7 @@
 <body>
     <div class="topbar">
         <div class="left">
-            <img src="sreejith .jpg" alt="">
+            <img src="image/sreejith .jpg" alt="">
             <p>Sreejith R</p>
         </div>
         <!-- FOR BIG SCREEN DISPLAY -->
@@ -62,6 +65,7 @@
                 the success of the overall product
             </p>
         </div>
+        
         <div class="botom">
             <a href="#projects">
 
@@ -92,31 +96,32 @@
                 <h2>Get to know me!</h2>
                 <p>
                     I'm a <strong> Frontend Web Developer</strong> building the Front-end of Websites and Web
-                    Applications that leads to the success of the overall product. 
+                    Applications that leads to the success of the overall product.
                     Check out some of my work in the
                     <a href="#projects">Projects</a> section.
                 </p>
                 <p>
-                    I'm open to <strong>Job</strong> opportunities where I can contribute, learn and grow. If you have a good opportunity
-                    that matches my skills and experience then don't hesitate to 
+                    I'm open to <strong>Job</strong> opportunities where I can contribute, learn and grow. If you have a
+                    good opportunity
+                    that matches my skills and experience then don't hesitate to
                     <a href="#contact">contact me.</a>
                 </p>
-                
+
             </div>
             <div class="skills">
                 <h2>My Skills</h2>
-                <div class="html" > <span> HTML </span> </div>
-                <div class="html" > <span> CSS </span> </div>
-                <div class="html" > <span> JavaScript </span> </div>
-                <div class="html" > <span> React </span> </div>
-                <div class="html" > <span> GIT </span> </div>
-                <div class="html" > <span> GITHUB </span> </div>
+                <div class="html"> <span> HTML </span> </div>
+                <div class="html"> <span> CSS </span> </div>
+                <div class="html"> <span> JavaScript </span> </div>
+                <div class="html"> <span> React </span> </div>
+                <div class="html"> <span> GIT </span> </div>
+                <div class="html"> <span> GITHUB </span> </div>
             </div>
         </div>
 
     </div>
 
-    
+
 
     <!-- PROJECTS SECTION -->
     <div class="projects">
@@ -128,17 +133,148 @@
             </h1>
         </div>
         <div class="line"></div>
+        <div class="middle">
+            <p>
+                Here you can find some of the personal projects which I created
+            </p>
+        </div>
+
+        <div class="box1">
+           
+            <div class="project-name">
+                <a href="https://sreejith36.github.io/Sample-Website/" target="_blank">
+                    <img src="image/Sample page1 .png" alt="">
+                    A Sample website
+                </a>
+            </div>
+
+            <div class="project-name">
+                <a href="https://sreejith36.github.io/flipkart-clone/" target="_blank">
+                    <img src="image/flipkart-clone.png" alt="">
+                    Flipkart copy
+
+                </a>
+            </div>
+
+            <div class="project-name">
+                <a href="https://sreejith36.github.io/react-todo-app/" target="_blank">
+                    <img src="image/TodoApp.png" alt="Todo">
+                    Todo App
+
+                </a>
+            </div>
+
+            <div class="project-name">
+                <a href="https://sreejith36.github.io/APJ_AbdulKalam_Tribute/" target="_blank">
+                    <img src="image/APJAbd_Kalam.png" alt="">
+                    A P J Abdul Kalam
+                </a>
+            </div>
+
+            <div class="project-name">
+                <a href="https://sreejith36.github.io/Landing-page/" target="_blank">
+                    <img src="image/Landing_page.png" alt="Landing Page">
+                    Landing Page
+                </a>
+            </div>
+        </div>
 
     </div>
 
     <!-- CONTACTS SECTION -->
-    <div class="contacts">
+    <div class="contact">
+        <div class="contact-top"></div>
+        <div id="contact" class="contact-top"></div>
+        <div class="name">
+            <h1>
+                CONTACT
+            </h1>
+        </div>
+        <div class="line"></div>
+
+        <div class="feel">
+            <p>
+                Feel free to Contact me by submitting the form below
+            </p>
+        </div>
+
+        <form id="submit-form" action=" ">
+            <div class="form-content">
+                <div class="flabel">
+                    <label class="fname" for="fname">Name</label>
+                    <input type="text" name="Name" placeholder="Enter your name">
+
+                    <label class="fname" for="email">Email</label>
+                    <input type="text" name="Email" placeholder="Enter your email">
+
+                    <label class="fname" for="phone_number">Phone No. </label>
+                    <input type="number" name="Number" placeholder="Enter your contact number">
+
+                    <label class="fname" for="message">Message</label>
+                    <textarea name="Message" class="farea" id="" cols="30" rows="10"
+                        placeholder="Enter your message"></textarea>
+
+                </div>
+
+                <div class="btn">
+                    <input class="btn1" type="submit">
+                </div>
+            </div>
+            <span id="msg"></span>
+        </form>
+
+        <footer>
+
+            <div class="top" >
+                <div class="left-1">
+                        <h2>
+                            Sreejith R
+                        </h2>
+                        <p>
+                            A Frontend focused Web Developer building the Frontend of Websites and 
+                            Web Applications that leads to the success of the overall product
+                        </p>
+                                             
+                </div>
+    
+    
+                <div class="right-1">
+                    <p>
+                        <i class="fa-sharp fa-regular fa-envelope"></i>
+                        Email : sreejith8523@gmail.com
+                    </p>
+
+                    <p>
+                        <a href="https://www.linkedin.com/in/sreejith-r-18112326b?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BAjXRbqHpRbWRFU81rUOWEQ%3D%3D" target="_blank" >
+                            <i class="fa-brands fa-linkedin"></i> 
+                            LinkedIn
+
+                        </a>
+                    </p>
+                    <p>
+                        <a href="https://github.com/Sreejith36" target="_blank" >
+                            <i class="fa-brands fa-github"></i>
+                            GITHUB</a>
+                    </p>
+                    
+                </div>
+            </div>
+            
+            <hr>
+            <div class="two">
+                <p>
+                    &#169; Copyright, designed & developed by Sreejith R
+                </p>
+            </div>
+        </footer>
 
     </div>
 
 
 
     <script src="myscript.js"></script>
+
+
 
 </body>
 

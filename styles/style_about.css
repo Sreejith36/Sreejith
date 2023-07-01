@@ -88,7 +88,8 @@
     .about .botom .skills {
 
         width: 92%;
-        margin: 1px auto;
+        margin: 5px auto;
+        text-align: center;
     }
 
     .about .botom .know h2,
